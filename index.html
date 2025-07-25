@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital agency website</title>
+  <!-- Nunito sans-serif font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+    rel="stylesheet">
+
+  <!-- Montserrat sans-serif font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style type="text/tailwindcss">
+    @layer base {
+      body {
+        font-family: 'Nunito', sans-serif;
+      }
+      /* .nunito {
+        font-family: 'Nunito', sans-serif;
+      } */
+      .montserrat {
+        font-family: 'Montserrat', sans-serif;
+      }
+      .graphik {
+        font-family: 'Graphik', sans-serif;
+      }
+    }
+    </style>
+
+</head>
+
+<body class="bg-[#1E1E20] max-w-[327px] md:max-w-[1200px] mx-auto relative">
+  <!-- background gradient color -->
+  <div class="bg-gradient-to-r from-[rgba(84,84,212)] to-[rgba(84,84,212,0.01)] absolute w-[272px] md:w-[467px] h-[666px] md:h-[1100px] rounded-[233px] -rotate-45 top-[-250px] left-[-150px] md:left-[-40px] opacity-20 z-0 blur-3xl"></div>
+
+  <div class="bg-gradient-to-r from-[rgba(251,168,28,0.26)] to-[rgba(224,86,136,0.15)] absolute w-[252px] md:w-[625px] h-[200px] md:h-[1412px] rounded-[233px] top-[250px] md:top-[-250px] right-[-60px] md:r
+  ight-[-40px] rotate-90 z-0 opacity-30 blur-3xl"></div>
+
+
+
+  <header>
+    <nav class="flex justify-between items-center mt-12 z-10">
+      <div class="flex items-center w-[115px] md:w-[132px] h-[34px] md:h-[40px] gap-1 md:gap-2 cursor-pointer">
+        <img class="w-[27px] md:w-[40px] h-[27px] md:h-[40px]" src="images/Logo Icon 1.png" alt="">
+        <h1 class="text-[28px] text-[#FFFFFF] font-bold montserrat">Enver</h1>
+      </div>
+      <ul class="hidden md:flex items-center gap-10">
+        <li class="text-[18px] text-[#5454D4] font-semibold opacity-70"><a href="">Home</a></li>
+        <li class="text-[18px] text-[#FFFFFF] font-normal opacity-70"><a href="">Services</a></li>
+        <li class="text-[18px] text-[#FFFFFF] font-normal opacity-70"><a href="">Our Project</a></li>
+        <li class="text-[18px] text-[#FFFFFF] font-normal opacity-70"><a href="">About Us</a></li>
+      </ul>
+      <div>
+        <button
+          class="hidden md:block w-[157px] h-[44px] text-[16px] text-[#FFFFFF] font-normal rounded-[5px] border border-[#FFFFFF]">Contact
+          Us</button>
+        <img class="w-8 h-8 block md:hidden cursor-pointer" src="images/Sort.png" alt="">
+      </div>
+    </nav>
+    <!-- hero section -->
+    <div class="flex flex-col md:flex-row items-center justify-between mt-20">
+      <div>
+        <div class="w-[327px] md:w-[582px] h-[393px]">
+          <h1 class="text-[42px] md:text-[80px] text-[#FFFFFF] font-bold leading-14 md:leading-24 ">Build Your Awesome Platform</h1>
+          <p class="text-[16px] md:text-[21px] text-[#FFFFFF] opacity-70 font-normal mt-7 md:mt-6">Enver studio is a
+            digital studio that offers several services such as UI/UX Design to developers, we will
+            provide the best service for those of you who use our services.</p>
+          <button
+            class="flex items-center justify-center gap-2 w-[204px] h-[58px] text-[20px] text-[#FFFFFF] font-bold bg-[#5454D4] rounded-none md:rounded-[8px] mt-12 cursor-pointer">Our
+            Services <span><img class="w-6 h-6" src="images/arrow-right-up.png" alt=""></span></button>
+        </div>
+
+      </div>
+      <div class="relative">
+        <img class="w-[487px] h-auto mt-12 md:mt-0" src="images/young-man.png" alt="">
+        <!-- <img class="w-[218px] md:w-[375px] h-[218px] md:h-[400px] absolute top-1/5" src="images/Group 162532.png" alt=""> -->
+        <!-- <img class="w-[218px] md:w-[375px] h-[218px] md:h-[375px] absolute top-1/5 left-1/12 -z-10" src="images/rectangle.png" alt=""> -->
+      </div>
+    </div>
+  </header>
+  <main class="mt-48">
+    <!-- meeting section -->
+    <div class="h-[800px]">
+      <div class="flex items-center justify-between h-[140px]">
+        <h1 class="text-6xl text-[#FFFFFF] font-bold w-[588px]">Why Enver Is The Best Choice?</h1>
+        <p class="text-[21px] text-[#FFFFFF] opacity-70 font-normal w-[588px]">Watch this one minute video so you understand why you should use our services!</p>
+      </div>
+      <div class="mt-12">
+        <img class="w-[1200px]" src="images/image 4.png" alt="">
+        <img src="images/Play.png" alt="">
+      </div>
+      
+    </div>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+
+</html>
